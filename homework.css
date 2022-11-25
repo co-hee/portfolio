@@ -11,6 +11,10 @@
     line-height: 100px;
 }
 
+.header h1 {
+    width: 100px;
+}
+
 .gnb ul {
     gap: 60px;
 }
@@ -33,14 +37,13 @@
     height: 3px;
     background: tomato;
     transition: 0.3s;
+    font-weight: 400;
 }
 
 .header .inner .gnb ul li:hover::after {
     width: 100%;
-}
-
-.header .inner .gnb ul li:hover::after {
-    width: 100%;
+    font-weight: 500;
+    color: tomato;
 }
 
 .sec {
